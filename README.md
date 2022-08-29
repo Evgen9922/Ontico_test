@@ -1,2 +1,9 @@
-# Ontico_test
-test for Ontico
+Тестовое задание Онтико:
+Использованы технологии:
+ - валидная верстка;
+ - SASS;
+ - GULP;
+ - flexbox;
+ - проверка БЭМ
+ - javaScript
+ 
