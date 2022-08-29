@@ -1,0 +1,169 @@
+.footer {
+ position: relative;
+ background-color: #262529;
+ padding: 58px 21px 30px 114px;
+ color: #fff;
+ a {
+  color: #fff;
+  font-family: "travels_regular", Arial, Helvetica, sans-serif;
+  &:hover {
+   color: #90c8f7;
+  }
+ }
+}
+
+.footer__contacts {
+ margin-bottom: 83px;
+ max-width: 33%;
+ font-family: "travels_regular", Arial, Helvetica, sans-serif;
+ font-size: 18px;
+}
+
+.footer__contacts-title {
+ margin-bottom: 22px;
+ font-family: "travelsdemibold", Arial, Helvetica, sans-serif;
+ line-height: 23px;
+}
+
+.links {
+ font-family: "travels_regular", Arial, Helvetica, sans-serif;
+}
+
+.footer__img2022 {
+ position: absolute;
+ right: 100px;
+ top: 0;
+ width: 49.5%;
+ height: auto;
+}
+
+.footer__month {
+ display: flex;
+ padding-left: 22px;
+ font-family: "travelsdemibold", Arial, Helvetica, sans-serif;
+}
+
+.footer__year {
+ margin-right: 10px;
+ width: 255px;
+ padding-top: 6px;
+ font-size: 36px;
+}
+
+.footer__listbox {
+ position: relative;
+ outline: 1px solid white;
+}
+
+.footer__month-list {
+ position: relative;
+ display: flex;
+ flex-wrap: wrap;
+ max-width: 1365px;
+ width: 80%;
+ padding-top: 15px;
+ border-top: 2px solid rgba(255, 255, 255, 0.35);
+ justify-content: space-between;
+ font-size: 18px;
+}
+
+.footer__month-name:hover {
+ color: #90c8f7;
+ cursor: pointer;
+}
+
+.footer__month-name:active {
+ color: aqua;
+}
+
+.js-active-month {
+ color: rgb(255, 0, 212);
+}
+
+.label {
+ position: absolute;
+ top: -5px;
+ left: 35.5%;
+ width: 35px;
+ height: 10px;
+ border-radius: 5px;
+ background-color: #fff;
+ transition-property: left;
+ transition-timing-function: ease-out;
+ transition-duration: 0.4s;
+}
+
+@media (max-width: 1570px) {
+ .footer {
+  padding: 20px;
+ }
+
+ .footer__img2022 {
+  right: 10px;
+  top: 10px;
+ }
+
+ .footer__contacts {
+  margin-bottom: 60px;
+  max-width: 48%;
+ }
+
+ .footer__month {
+  display: block;
+  padding: 0;
+ }
+
+ .footer__year {
+  margin-bottom: 10px;
+  font-size: 30px;
+ }
+
+ .footer__month-list {
+  width: 100%;
+ }
+}
+
+@media (max-width: 1024px) {
+ .footer__img2022 {
+  width: 30%;
+ }
+
+ .footer__contacts {
+  margin-bottom: 60px;
+  max-width: 65%;
+ }
+
+ .footer__month-list {
+  flex-wrap: wrap;
+  justify-content: initial;
+ }
+
+ .footer__month-name {
+  margin-right: 70px;
+  width: 60px;
+  margin-bottom: 10px;
+ }
+
+ .label {
+  display: none;
+ }
+
+ .footer__month-list {
+  border-top: 1px solid rgb(138, 136, 136);
+ }
+}
+
+@media (max-width: 640px) {
+ .footer__img2022 {
+  position: static;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  width: 80%;
+ }
+
+ .footer__contacts {
+  max-width: initial;
+  width: 100%;
+ }
+}
